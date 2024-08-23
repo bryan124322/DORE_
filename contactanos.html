@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="diseño.css">
+    <title>Contactanos</title>
+</head>
+<body id="background">
+    <header>
+        <div class="container-nav">
+            <div class="logo"><img src="img/logo.jpg" width="66px"></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+                    <li><a href="#historia">Historia</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="equipo.html">Nuestro equipo</a></li>
+                </ul>
+            </nav>
+            <a href="contactanos.html" class="cta">Contáctanos</a>
+        </div>
+    </header>
+    
+<section id="contacto">
+    <div class="container">
+        <h2>Contactanos</h2>
+        <form id="contacto-form" novalidate>
+            <label for="nombre">Nombre:</label> 
+            <input type="text" id="nombre" name="nombre" required> 
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</section>
+    
+<script src="validacion.js"></script>
+</body>
+</html>
